@@ -1,8 +1,8 @@
-let s = 0;
-str = "";
+"use strict";
+
 function petaOlen(n) {
-  s = 9 - n;
-  str = n + "9" + s;
+  let s = 9 - n;
+  let str = n + "9" + s;
   return str;
 }
-petaOlen(6);
+console.log(petaOlen(6));
